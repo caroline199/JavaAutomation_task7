@@ -59,8 +59,6 @@ public class TestHoverOnCars {
             texts.add(el.getText());
         }
 
-        System.out.println(texts);
-
         Assertions.assertThat(texts.containsAll(carSubCategory)).isTrue();
 
     }

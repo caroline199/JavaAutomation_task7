@@ -12,7 +12,6 @@ public class AfterStep {
     @After
     public static void cleanUp() {
         driver = getDriver();
-
         driver.close();
     }
 }
